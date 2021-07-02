@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MiniProject2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fsp-Ph-sDO">
+                                <rect key="frame" x="200" y="799" width="174" height="38"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Next Question ">
+                                            <attributes>
+                                                <font key="NSFont" size="20" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="➡️">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="system" size="20"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="vtm-CT-Fo8" kind="show" id="QaE-nB-RDV"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2AG-9I-4ms">
+                                <rect key="frame" x="87" y="98" width="240" height="91"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Which is your fav color?">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="35" name="Futura-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vj4-hT-qzc">
+                                <rect key="frame" x="107" y="325" width="200" height="51"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Black">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Ice Cream">
+                                            <attributes>
+                                                <color key="NSColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="30" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="black:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cc9-al-BOX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UQ2-ET-Y2n">
+                                <rect key="frame" x="107" y="416" width="200" height="51"/>
+                                <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Black">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Ice Cream">
+                                            <attributes>
+                                                <color key="NSColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="30" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="black:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SSQ-eF-1mP"/>
+                                    <action selector="dsfds:" destination="BYZ-38-t0r" eventType="touchUpInside" id="efl-CN-oXc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uT8-Xq-BJz">
+                                <rect key="frame" x="107" y="507" width="200" height="51"/>
+                                <color key="backgroundColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Black">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Ice Cream">
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="30" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="black:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u8p-gm-RV2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Mo-rp-Noh">
+                                <rect key="frame" x="107" y="234" width="200" height="51"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Black">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Ice Cream">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="30" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="black:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jVh-ob-EuF"/>
+                                    <action selector="blackButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qf5-W8-ZHj"/>
+                                    <action selector="bleckButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yHG-3X-B9L"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N6A-4o-MPp">
+                                <rect key="frame" x="107" y="612" width="200" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <font key="NSFont" size="35" name="Futura-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vj4-hT-qzc" firstAttribute="top" secondItem="8Mo-rp-Noh" secondAttribute="bottom" constant="40" id="2n4-S8-YRu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8Mo-rp-Noh" secondAttribute="trailing" constant="107" id="9B8-4C-L4e"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UQ2-ET-Y2n" secondAttribute="trailing" constant="107" id="AYb-CL-wvK"/>
+                            <constraint firstItem="UQ2-ET-Y2n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="Bgr-Sx-301"/>
+                            <constraint firstItem="8Mo-rp-Noh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="FsH-6Q-HmK"/>
+                            <constraint firstItem="vj4-hT-qzc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="Grq-kd-JDK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fsp-Ph-sDO" secondAttribute="bottom" constant="25" id="JHx-fa-D83"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fsp-Ph-sDO" secondAttribute="bottom" constant="25" id="TBh-BA-xcM"/>
+                            <constraint firstItem="8Mo-rp-Noh" firstAttribute="top" secondItem="2AG-9I-4ms" secondAttribute="bottom" constant="45" id="VNe-Cb-nrK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fsp-Ph-sDO" secondAttribute="trailing" constant="40" id="Vga-Cd-Gnz"/>
+                            <constraint firstItem="uT8-Xq-BJz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="cGZ-dP-5ll"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uT8-Xq-BJz" secondAttribute="trailing" constant="107" id="emc-AQ-0Au"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fsp-Ph-sDO" secondAttribute="trailing" constant="40" id="gaw-qT-v9P"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vj4-hT-qzc" secondAttribute="trailing" constant="107" id="joy-EH-sCl"/>
+                            <constraint firstItem="fsp-Ph-sDO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="200" id="k50-QV-L01"/>
+                            <constraint firstItem="uT8-Xq-BJz" firstAttribute="top" secondItem="UQ2-ET-Y2n" secondAttribute="bottom" constant="40" id="nZ3-L2-2nd"/>
+                            <constraint firstItem="UQ2-ET-Y2n" firstAttribute="top" secondItem="vj4-hT-qzc" secondAttribute="bottom" constant="40" id="qQh-RA-ukz"/>
+                            <constraint firstItem="2AG-9I-4ms" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="54" id="rWm-ML-7xX"/>
+                            <constraint firstItem="2AG-9I-4ms" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="spt-Co-p4U"/>
+                            <constraint firstItem="fsp-Ph-sDO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="755" id="u87-rx-szU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2AG-9I-4ms" secondAttribute="trailing" constant="87" id="uP5-Qx-vzr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emojiLabel" destination="N6A-4o-MPp" id="MCE-k9-Dj4"/>
+                        <outlet property="favColor" destination="2AG-9I-4ms" id="t9e-dv-BP2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="73.913043478260875" y="93.75"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="Mtl-V9-no8">
+            <objects>
+                <viewController id="vtm-CT-Fo8" customClass="SecondViewController" customModule="MiniProject2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q8G-2D-zqA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hOb-9E-OKp">
+                                <rect key="frame" x="200" y="755" width="174" height="28"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Next Question ">
+                                            <attributes>
+                                                <font key="NSFont" size="20" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="➡️">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="system" size="20"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="VfW-3N-HvX" kind="show" id="2Qk-RW-KUQ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vRg-3S-EB1">
+                                <rect key="frame" x="87" y="54" width="240" height="136.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Which dessert do you like most?">
+                                        <attributes>
+                                            <font key="NSFont" size="35" name="Futura-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="whC-Zd-KB6">
+                                <rect key="frame" x="107" y="235.5" width="200" height="51"/>
+                                <color key="backgroundColor" red="0.8862745098" green="0.95686274510000002" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Black">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Ice Cream">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="30" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="black:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Wg-gy-Sif"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vsq-dB-R2b">
+                                <rect key="frame" x="107" y="326.5" width="200" height="51"/>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.85999404519287836" blue="0.94445566390586511" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Black">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Cake">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="30" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="black:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dEk-H3-xmC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r93-8F-eti">
+                                <rect key="frame" x="107" y="417.5" width="200" height="51"/>
+                                <color key="backgroundColor" red="0.77375128790000003" green="0.79961689530000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Black">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Pie">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="30" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="black:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zED-Bm-TjH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SQ1-wZ-t2x">
+                                <rect key="frame" x="107" y="508.5" width="200" height="51"/>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.90717696039999995" blue="0.79039934779999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Black">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Brownies">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="30" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="black:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Az2-mV-czy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FcO-Pi-HS0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="whC-Zd-KB6" firstAttribute="top" secondItem="vRg-3S-EB1" secondAttribute="bottom" constant="45" id="0g9-cn-WKK"/>
+                            <constraint firstItem="FcO-Pi-HS0" firstAttribute="trailing" secondItem="hOb-9E-OKp" secondAttribute="trailing" constant="40" id="1dh-F9-z04"/>
+                            <constraint firstItem="FcO-Pi-HS0" firstAttribute="trailing" secondItem="Vsq-dB-R2b" secondAttribute="trailing" constant="107" id="2Rf-a1-Lxz"/>
+                            <constraint firstItem="hOb-9E-OKp" firstAttribute="top" secondItem="FcO-Pi-HS0" secondAttribute="top" constant="755" id="67w-AB-8jc"/>
+                            <constraint firstItem="vRg-3S-EB1" firstAttribute="top" secondItem="FcO-Pi-HS0" secondAttribute="top" constant="54" id="7fP-yd-gXW"/>
+                            <constraint firstItem="FcO-Pi-HS0" firstAttribute="trailing" secondItem="SQ1-wZ-t2x" secondAttribute="trailing" constant="107" id="9Rz-QW-vam"/>
+                            <constraint firstItem="FcO-Pi-HS0" firstAttribute="bottom" secondItem="hOb-9E-OKp" secondAttribute="bottom" constant="25" id="HGA-nd-tqR"/>
+                            <constraint firstItem="SQ1-wZ-t2x" firstAttribute="leading" secondItem="FcO-Pi-HS0" secondAttribute="leading" constant="107" id="Iar-kH-xF7"/>
+                            <constraint firstItem="Vsq-dB-R2b" firstAttribute="leading" secondItem="FcO-Pi-HS0" secondAttribute="leading" constant="107" id="Lix-46-saa"/>
+                            <constraint firstItem="FcO-Pi-HS0" firstAttribute="trailing" secondItem="whC-Zd-KB6" secondAttribute="trailing" constant="107" id="QUE-gJ-URZ"/>
+                            <constraint firstItem="Vsq-dB-R2b" firstAttribute="top" secondItem="whC-Zd-KB6" secondAttribute="bottom" constant="40" id="Y6a-Ye-Oov"/>
+                            <constraint firstItem="whC-Zd-KB6" firstAttribute="top" secondItem="vRg-3S-EB1" secondAttribute="bottom" constant="45" id="afA-4i-11S"/>
+                            <constraint firstItem="r93-8F-eti" firstAttribute="top" secondItem="Vsq-dB-R2b" secondAttribute="bottom" constant="40" id="bg8-2y-JTc"/>
+                            <constraint firstItem="FcO-Pi-HS0" firstAttribute="trailing" secondItem="r93-8F-eti" secondAttribute="trailing" constant="107" id="cqO-Ay-K8w"/>
+                            <constraint firstItem="vRg-3S-EB1" firstAttribute="leading" secondItem="FcO-Pi-HS0" secondAttribute="leading" constant="87" id="gmE-ER-AdN"/>
+                            <constraint firstItem="SQ1-wZ-t2x" firstAttribute="top" secondItem="r93-8F-eti" secondAttribute="bottom" constant="40" id="hgv-Or-eEK"/>
+                            <constraint firstItem="whC-Zd-KB6" firstAttribute="leading" secondItem="FcO-Pi-HS0" secondAttribute="leading" constant="107" id="iAN-AK-AAw"/>
+                            <constraint firstItem="hOb-9E-OKp" firstAttribute="leading" secondItem="FcO-Pi-HS0" secondAttribute="leading" constant="200" id="nAb-5C-Q4N"/>
+                            <constraint firstItem="hOb-9E-OKp" firstAttribute="top" secondItem="FcO-Pi-HS0" secondAttribute="top" constant="755" id="q7h-KK-d4r"/>
+                            <constraint firstItem="FcO-Pi-HS0" firstAttribute="trailing" secondItem="vRg-3S-EB1" secondAttribute="trailing" constant="87" id="rs7-KQ-AL1"/>
+                            <constraint firstItem="r93-8F-eti" firstAttribute="leading" secondItem="FcO-Pi-HS0" secondAttribute="leading" constant="107" id="vFw-GW-UBf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="yr2-PQ-nps"/>
+                    <connections>
+                        <outlet property="iceCream" destination="whC-Zd-KB6" id="w6v-o1-e4Z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aM7-J0-bMC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="720.28985507246387" y="98.4375"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="fKr-Xj-jxh">
+            <objects>
+                <viewController id="VfW-3N-HvX" customClass="ThirdViewController" customModule="MiniProject2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j71-Kt-den">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PH7-9q-iwr">
+                                <rect key="frame" x="87" y="54" width="240" height="136.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Which animal do you like the most?">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="35" name="Futura-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2fF-Ed-Yyt">
+                                <rect key="frame" x="107" y="235.5" width="200" height="51"/>
+                                <color key="backgroundColor" red="0.79726818752526962" green="0.909275377677635" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Black">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Dog">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="30" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="black:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uam-EY-xmh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d50-je-r1Q">
+                                <rect key="frame" x="107" y="326.5" width="200" height="51"/>
+                                <color key="backgroundColor" red="0.97837287265013062" green="1" blue="0.77968485997041626" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Black">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Cat">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="30" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="black:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nZK-He-aHH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sMx-Ww-sOC">
+                                <rect key="frame" x="107" y="508.5" width="200" height="51"/>
+                                <color key="backgroundColor" red="0.87251422441366944" green="0.87251422441366944" blue="0.87251422441366944" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Black">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Dolphin">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="30" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="black:" destination="BYZ-38-t0r" eventType="touchUpInside" id="djF-xw-6sO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HBX-pa-fGG">
+                                <rect key="frame" x="107" y="417.5" width="200" height="51"/>
+                                <color key="backgroundColor" red="0.90225211845770392" green="0.95686274510000002" blue="0.8268313177023392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Black">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Bird">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="30" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="black:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sdj-b2-nww"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bfW-n5-DQK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="d50-je-r1Q" firstAttribute="top" secondItem="2fF-Ed-Yyt" secondAttribute="bottom" constant="40" id="1YE-B3-p7N"/>
+                            <constraint firstItem="bfW-n5-DQK" firstAttribute="trailing" secondItem="PH7-9q-iwr" secondAttribute="trailing" constant="87" id="3Jv-m8-qf4"/>
+                            <constraint firstItem="bfW-n5-DQK" firstAttribute="trailing" secondItem="HBX-pa-fGG" secondAttribute="trailing" constant="107" id="5eJ-8h-RNu"/>
+                            <constraint firstItem="bfW-n5-DQK" firstAttribute="trailing" secondItem="sMx-Ww-sOC" secondAttribute="trailing" constant="107" id="GLB-OP-hEm"/>
+                            <constraint firstItem="HBX-pa-fGG" firstAttribute="leading" secondItem="bfW-n5-DQK" secondAttribute="leading" constant="107" id="Hfb-SU-rOq"/>
+                            <constraint firstItem="bfW-n5-DQK" firstAttribute="trailing" secondItem="d50-je-r1Q" secondAttribute="trailing" constant="107" id="JTb-CL-4eR"/>
+                            <constraint firstItem="bfW-n5-DQK" firstAttribute="trailing" secondItem="2fF-Ed-Yyt" secondAttribute="trailing" constant="107" id="M05-p7-FiT"/>
+                            <constraint firstItem="PH7-9q-iwr" firstAttribute="top" secondItem="bfW-n5-DQK" secondAttribute="top" constant="54" id="QcF-Iz-pgz"/>
+                            <constraint firstItem="sMx-Ww-sOC" firstAttribute="top" secondItem="HBX-pa-fGG" secondAttribute="bottom" constant="40" id="UTN-31-Cx8"/>
+                            <constraint firstItem="2fF-Ed-Yyt" firstAttribute="top" secondItem="PH7-9q-iwr" secondAttribute="bottom" constant="45" id="bJ3-fx-krJ"/>
+                            <constraint firstItem="PH7-9q-iwr" firstAttribute="leading" secondItem="bfW-n5-DQK" secondAttribute="leading" constant="87" id="cQx-Fp-8jU"/>
+                            <constraint firstItem="2fF-Ed-Yyt" firstAttribute="leading" secondItem="bfW-n5-DQK" secondAttribute="leading" constant="107" id="lNl-2s-58O"/>
+                            <constraint firstItem="sMx-Ww-sOC" firstAttribute="leading" secondItem="bfW-n5-DQK" secondAttribute="leading" constant="107" id="nu0-Zd-lZM"/>
+                            <constraint firstItem="d50-je-r1Q" firstAttribute="leading" secondItem="bfW-n5-DQK" secondAttribute="leading" constant="107" id="pdD-mS-7S8"/>
+                            <constraint firstItem="HBX-pa-fGG" firstAttribute="top" secondItem="d50-je-r1Q" secondAttribute="bottom" constant="40" id="sXI-RP-hgw"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="q9Q-sb-mYE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UbL-ke-Qp9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1369.5652173913045" y="110.49107142857143"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
